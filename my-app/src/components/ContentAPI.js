@@ -16,19 +16,6 @@ export class ContentAPI extends Component {
         }
     }
 
-    // componentDidMount(){
-    //     axios.get("https://jsonplaceholder.typicode.com/posts/1")
-    //     .then(response => {
-    //         console.log(response);
-    //         this.setState({
-    //             posts: Array.isArray(response.data) ? response.data : [response.data] ,
-    //         })
-    //     })
-    //     .catch(error => {
-    //         this.setState({error: error.message})
-    //     })
-    // }
-
     componentDidMount() {
         this.fetchImages();
     }

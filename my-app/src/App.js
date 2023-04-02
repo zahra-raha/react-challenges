@@ -5,6 +5,7 @@ import NavBarForm from './components/NavBarForm';
 // import Content from './components/Content';
 import ContentHooks from './components/ContentHooks';
 import ContentAPI from './components/ContentAPI';
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Sidebar />
       <NavBarForm />
       {/* <Content></Content> */}
-      <ContentAPI />
+      <ContentAPIHooks />
     </div>
   );
 }
